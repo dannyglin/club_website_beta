@@ -1168,6 +1168,25 @@ pre code {
     padding-bottom:4.25rem;
   }
 
+  .brotherhood {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px 0 auto;
+    text-align: left;
+    row-gap: 2rems;
+  }
+
+  .abc {
+        display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px 0 auto;
+    text-align: left;
+    row-gap: 2rems;
+  }
   .col-md-8 {
     flex: 0 0 66.6666666667%;
     max-width: 66.6666666667%;
